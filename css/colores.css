@@ -1,7 +1,7 @@
 html {
-  --colContenido: black;
-  --colContenidoFondo: white;
-  --colPrimario: black;
+  --colContenido: #000000;
+  --colContenidoFondo: #ffffff;
+  --colPrimario: #000000;
   --colPrimarioFondo: #81D4FA;
   --colActive: #4646462c;
   --colCampoSinFoco: gray;
