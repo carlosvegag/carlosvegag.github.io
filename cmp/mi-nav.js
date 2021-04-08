@@ -1,8 +1,9 @@
 class MiNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
-      `<ul>
-        <li>
+      `<table id="tablanav">
+       <tr>
+        <td>
           <a href="index.html">
             <span class=
                 "material-icons">
@@ -10,8 +11,10 @@ class MiNav extends HTMLElement {
             </span>
             Inicio
           </a>
-        </li>
-        <li>
+        </td>
+        </tr>
+        <tr>
+        <td>
           <a href="gps.html">
             <span class=
                 "material-icons">
@@ -19,8 +22,10 @@ class MiNav extends HTMLElement {
             </span>
             GPS
           </a>
-        </li>
-        <li>
+        </td>
+        </tr>
+        <tr>
+        <td>
           <a href="archivos.html">
             <span class=
                 "material-icons">
@@ -28,8 +33,10 @@ class MiNav extends HTMLElement {
             </span>
             Archivos
           </a>
-        </li>
-        <li>
+        </td>
+        </tr>
+        <tr>
+        <td>
           <a href="ayuda.html">
             <span class=
                 "material-icons">
@@ -37,8 +44,9 @@ class MiNav extends HTMLElement {
             </span>
             Ayuda
           </a>
-        </li>
-      </ul>`;
+        </td>
+      </tr>
+      </table>`;
   }
 }
 customElements.define(
