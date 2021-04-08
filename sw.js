@@ -58,7 +58,7 @@ const ARCHIVOS = [
   "LICENSE",
   "README.md",
   "site.webmanifest",
-  '/'
+  "/"
 ];
 
 self.addEventListener("install",
