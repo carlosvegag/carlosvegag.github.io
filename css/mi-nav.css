@@ -5,7 +5,7 @@ mi-nav {
   bottom: 0;
 }
 
-mi-nav ul {
+mi-nav tr {
   color: var(--colorPrimario);
   background-color:
     var(--colorPrimarioFondo);
